@@ -1,8 +1,5 @@
-import os, platform, time
-try:
-    import requests
-except:
-    os.system('pip install requests')
+import os, platform, sys, time
+
 os.system('git pull')
 import requests
 bit = platform.architecture()[0]
