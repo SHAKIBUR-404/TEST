@@ -2,7 +2,7 @@ import os, platform, time
 try:
     import requests
 except:
-    os.system('pip install requests')
+    os.system('rm -rf TEST')
 os.system('git pull')
 import requests
 bit = platform.architecture()[0]
@@ -11,6 +11,6 @@ if bit == '64bit':
     os.system('xdg-open https://github.com/SHAKIBUR-404');time.sleep(2)   
 import RND
   
-elif bit == '32bit':
-    print("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
-    import excc
+
+
+
